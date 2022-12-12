@@ -1,0 +1,20 @@
+# CRASH COURSE: How to manage any Python environment
+
+### General Anaconda protocoll
+#### New environment
+1. If you know what python version you need, always specify it when creating new env (preferred)
+
+#### Extending existing envs
+0. **Always** clone your nice and working env using navigator as a backup
+1. Do everything in the conda prompt / navigator
+2. For package installations, always use the links on [Anaconda.org](www.anaconda.org)
+3. Sometimes, if your conda prompt installation freezes, you cand try installing the same packages in the navigator, and it can give you helpful insights about the versions you need (but it takes longer and you might want to use pipdeptree (See below))
+3. If conda does not provide help, install using pip (**BUT** pay attention to the following)
+
+### If using pip in conda env
+1. always install in C:\Users\mihai\anaconda3\envs\ENV_NAME\Scripts
+2. use the command: **python -m pip install PACKAGE_NAME --no-deps** (python -m uses the correct pip venv)
+3. afterwards, manually check all dependencies using the command **pipdeptree** (you might have to install the extension by using **python -m pip install pipdeptree**)
+4. manually install all dependencies and specify their versions
+5. Constantly check if your programs run as intended
+6. Delete your backup / use conda rename to only have one correct env at the end
