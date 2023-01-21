@@ -4,8 +4,10 @@
 #### New environment
 1. If you know what python version you need, always specify it when creating new env (preferred)
 
+! See [here](https://github.com/mihaifalcusan/Notes/blob/b3d6e282abcbf0153fe5c4e643f4ae6fdd46ae95/How%20to%20manage%20python%20envs%20using%20Anaconda/basic_ML_env.yml) for a standard environment .yml file, which you can simply use to create a basic ML environment using "conda env create --file basic_ML_env.yml -n new_env")
+
 #### Extending existing envs
-0. **Always** clone your nice and working env using navigator as a backup
+0. **Always** clone your nice and working env using navigator as a backup 
 1. Do everything in the conda prompt / navigator
 2. For package installations, always use the links on [Anaconda.org](www.anaconda.org)
 3. Sometimes, if your conda prompt installation freezes, you cand try installing the same packages in the navigator, and it can give you helpful insights about the versions you need (but it takes longer and you might want to use pipdeptree (See below))
