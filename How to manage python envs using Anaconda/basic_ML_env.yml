@@ -1,0 +1,26 @@
+name: ML_base
+channels:
+    - conda-forge
+    - defaults
+    - jmcmurray
+dependencies:
+    - python = 3.8.15
+    - numpy
+    - matplotlib
+    - pandas
+    - tqdm
+    - jupyterlab
+    - pytorch = 1.12.1
+    - cudatoolkit
+    - ray-core
+    - ray-default
+    - ray-tune
+    - ray-dashboard
+    - scikit-image
+    - scikit-learn
+    - seaborn
+    - pipdeptree
+  # - torch-vision
+  # - torch_audio
+
+    
