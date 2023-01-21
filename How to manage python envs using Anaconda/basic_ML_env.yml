@@ -1,4 +1,4 @@
-name: ML_base
+name: ml_base
 channels:
     - conda-forge
     - defaults
